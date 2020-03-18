@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700"); //Import font into css
+body, html{
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+//decoration navigation bar
+header{
+    color: #FFC400;
+    position: sticky;
+    top: 0;
+    background-color: #E3E3E3;
+}
+nav{
+    min-height: 10vh;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1,
+nav ul{
+    font-size: 1,5rem;
+    flex: 1;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;   
+}
+nav a{
+    color: #FFC400;
+    text-decoration: none;
+    font-weight: bold;
+}
+//end off deco nav bar :P
+//make a main section :)) 
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; //haha 
+    align-items: flex-start; //tam the xoa sau hihi
+}
+section h2{ /// tam cai nay xiu xoa
+    font-size: 1,5rem;
+    color: #000;
+}
+.Home {
+    background: #FFC400; //temp
+}
+.Education {
+    background: #FFD400; //temp
+}
+.Experience {
+    background: #FFE400; //temp
+}
+.Knowledge {
+    background: #FFF400; //temp
+}
+.Social {
+    background: #FFB400; //temp
+}
+.Contact {
+    background: #FFA400; //temp
+}
+.bubble{
+    position: absolute;
+    z-index: -2;
+    background: #000;
+}
