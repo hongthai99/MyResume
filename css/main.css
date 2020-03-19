@@ -12,7 +12,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: #E3E3E3;
+  background-color: #fff;
 }
 
 nav {
@@ -69,11 +69,11 @@ section {
 
 section h2 {
   font-size: 1,5rem;
-  color: #000;
+  color: #FFC400;
 }
 
 .Home {
-  background: #FFC400;
+  background: #E5E5E5;
 }
 
 .Education {
@@ -100,5 +100,39 @@ section h2 {
   position: absolute;
   z-index: -2;
   background: #000;
+}
+
+.portrait {
+  position: absolute;
+  right: 50%px;
+  width: 30%;
+  padding-top: 10%;
+  padding-left: 55%;
+}
+
+.home-make-name {
+  position: absolute;
+}
+
+.home-make-name h1 {
+  font-size: 3em;
+  margin-top: 90%;
+  color: #000;
+  -webkit-animation: textanimation 1s ease-in-out;
+          animation: textanimation 1s ease-in-out;
+  font-weight: bold;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+.home-make-name h1::before {
+  content: " ";
+  width: 90%;
+  border-bottom: 7px solid #FFC400;
+  display: block;
+  -webkit-animation: block-d 1s ease-in-out;
+          animation: block-d 1s ease-in-out;
+  -webkit-transform-origin: right;
+          transform-origin: right;
 }
 /*# sourceMappingURL=main.css.map */

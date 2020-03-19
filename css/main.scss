@@ -11,7 +11,7 @@ header{
     color: #FFC400;
     position: sticky;
     top: 0;
-    background-color: #E3E3E3;
+    background-color: #fff;
 }
 nav{
     min-height: 10vh;
@@ -46,10 +46,10 @@ section {
 }
 section h2{ /// tam cai nay xiu xoa
     font-size: 1,5rem;
-    color: #000;
+    color: #FFC400;
 }
 .Home {
-    background: #FFC400; //temp
+    background: #E5E5E5; //temp
 }
 .Education {
     background: #FFD400; //temp
@@ -70,4 +70,32 @@ section h2{ /// tam cai nay xiu xoa
     position: absolute;
     z-index: -2;
     background: #000;
+}
+.portrait {
+    position: absolute;
+    right: 50%px;
+    width: 30%;
+    padding-top: 10%;
+    padding-left: 55%;
+}
+.home-make-name{
+    position: absolute;
+    h1{
+        font-size: 3em;
+        margin-top: 90%;
+        color: #000;
+        animation:  textanimation 1s ease-in-out;
+        font-weight: bold;
+        transform-origin: left;
+
+        &::before {
+            content: " ";
+            width: 90%;
+            border-bottom: 7px solid #FFC400;
+            display: block;
+            animation: block-d 1s ease-in-out;
+            transform-origin: right;
+        }
+
+    }
 }
