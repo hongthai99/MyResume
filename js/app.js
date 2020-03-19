@@ -39,3 +39,5 @@ function navCheck(entries){
 sections.forEach(section => {
     observer.observe(section);
 });
+
+// here i make animation js scrolling navbar but it not working, i test everything but i dont know how it not working :((
