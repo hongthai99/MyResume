@@ -6,6 +6,7 @@ body, html{
     box-sizing: border-box;
 
 }
+//@bachh.thai
 //decoration navigation bar
 header{
     color: #FFC400;
@@ -77,6 +78,7 @@ section h2{ /// tam cai nay xiu xoa
     width: 30%;
     padding-top: 10%;
     padding-left: 55%;
+    animation: portrait 0.5s ease;
 }
 .home-make-name{
     position: absolute;
@@ -162,5 +164,13 @@ section h2{ /// tam cai nay xiu xoa
     }
     to{
         transform: rotateZ(360deg);
+    }
+}
+@keyframes portrait{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
     }
 }
